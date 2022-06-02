@@ -1,0 +1,170 @@
+/* 列表页专用 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?5qvzns');
+    src: url('../fonts/icomoon.eot?5qvzns#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?5qvzns') format('truetype'), url('../fonts/icomoon.woff?5qvzns') format('woff'), url('../fonts/icomoon.svg?5qvzns#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* 清除浮动 */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/* 秒杀模块 */
+
+.list_ms {
+    position: absolute;
+    left: 190px;
+    top: 34px;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+
+/* 导航栏模块 */
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 48px;
+    color: #000000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    position: relative;
+}
+
+.sk_con ul li a {
+    padding: 0 23px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child::after {
+    position: absolute;
+    left: 72px;
+    top: 12px;
+    font-family: 'icomoon';
+    content: '';
+}
+
+
+/* 列表身体页面开始 */
+
+.sk_hd img {
+    width: 1200px;
+    height: 120px;
+}
+
+.sk_bd ul {
+    width: 1220px;
+}
+
+.sk_bd ul li {
+    float: left;
+    position: relative;
+    padding: 0 14px;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    font-size: 14px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-left: 0;
+}
+
+.sk_bd ul li img {
+    margin: 0 31px 10px 31px;
+}
+
+.sk_bd ul li i {
+    font-size: 22px;
+    color: rgb(230, 0, 18);
+    line-height: 40px;
+}
+
+.sk_bd ul li strong {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 7000;
+    text-decoration: line-through;
+}
+
+.jindu {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.jindu h6 {
+    float: left;
+}
+
+.jindu h6 span {
+    color: rgb(230, 0, 18);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bd_jindu {
+    float: left;
+    margin: 8px 10px 0 10px;
+    width: 134px;
+    height: 14px;
+    border: 1px solid rgb(230, 0, 18);
+    border-radius: 7px;
+}
+
+.bd_jindu div {
+    width: 87%;
+    height: 12px;
+    background: rgb(230, 0, 18);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.sk_bd ul li button {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    height: 50px;
+    width: 288px;
+    color: #fff;
+    background: rgb(230, 0, 18);
+    text-align: center;
+    font-size: 20px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid rgb(230, 0, 18);
+}

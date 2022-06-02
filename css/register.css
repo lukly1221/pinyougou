@@ -1,0 +1,260 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 头部样式 */
+
+header {
+    height: 82px;
+    padding-top: 15px;
+    border-bottom: 2px solid #b1191a;
+}
+
+
+/* 登录栏 */
+
+.registerarea {
+    margin-top: 20px;
+    height: 524px;
+    border: 1px solid #ececec;
+}
+
+.reg_hd {
+    padding: 0 10px;
+    height: 40px;
+    background: #ececec;
+    border-bottom: 1px solid #ececec;
+    line-height: 40px;
+}
+
+.reg_hd h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reg_hd h3 p {
+    float: right;
+    font-size: 14px;
+}
+
+.reg_hd h3 p a {
+    color: #b1191a;
+}
+
+
+/* 表单模块 */
+
+.reg_bd {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 550px;
+}
+
+.reg_bd ul li {
+    margin-bottom: 20px;
+}
+
+.reg_bd label {
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg_bd input {
+    display: inline-block;
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.reg_bd .erro {
+    color: #df3033;
+    font-size: 12px;
+}
+
+.erro_img,
+.succeed_img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 21px;
+}
+
+.erro_img {
+    background-image: url(../images/form-img.png);
+}
+
+.succeed {
+    color: green;
+}
+
+.succeed_img {
+    background-image: url(../images/succeed.png);
+}
+
+.safe {
+    padding-left: 162px;
+}
+
+.safe em {
+    display: inline-block;
+    padding: 0 12px;
+    margin-right: 1px;
+    font-size: 12px;
+    height: 12px;
+    color: #fff;
+    line-height: 12px;
+}
+
+.ruo {
+    background: #de1111;
+}
+
+.zhong {
+    background: #40b83f;
+}
+
+.qiang {
+    background: #f79100;
+}
+
+.inp_ok input {
+    margin-left: 89px;
+    margin-right: 14px;
+    width: 18px;
+    height: 18px;
+    Vertical-align: middle;
+}
+
+.inp_ok b a {
+    color: rgb(129, 194, 241);
+}
+
+.sbm input {
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
+    background: rgb(202, 17, 26);
+    color: #fff;
+}
+
+
+/* 底部模块的样式 */
+
+
+/* 最外边的盒子 */
+
+.footer {
+    height: 415px;
+    background: #f5f5f5;
+    padding-top: 30px;
+}
+
+
+/* 盒子里面的第一个盒子 */
+
+.mod_service {
+    height: 80px;
+    border-bottom: 1px solid #666666;
+}
+
+.mod_service ul li {
+    float: left;
+    width: 240px;
+    height: 80px;
+    /* background: pink; */
+}
+
+.mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+}
+
+.mod_service ul li div h4 {
+    font-size: 14px;
+}
+
+.mod_service ul li div {
+    padding-left: 95px;
+}
+
+.mod_service ul li .zheng {
+    background: url(../images/品优购.png) no-repeat -252px -3px;
+}
+
+.mod_service ul li .ji {
+    background: url(../images/品优购.png) no-repeat -254px -54px;
+}
+
+.mod_service ul li .wu {
+    background: url(../images/品优购.png) no-repeat -257px -106px;
+}
+
+.mod_service ul li .te {
+    background: url(../images/品优购.png) no-repeat -257px -157px;
+}
+
+.mod_service ul li .bang {
+    background: url(../images/品优购.png) no-repeat -256px -209px;
+}
+
+
+/* 盒子里面的第二个盒子 */
+
+.mod_help {
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 189px;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.mod_help ul li {
+    float: left;
+    width: 200px;
+    /* height: 189px; */
+}
+
+.mod_help ul li:last-child {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help ul li dl dt {
+    color: #696262;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.mod_help ul li dl dd {
+    padding-bottom: 4px;
+    color: black;
+}
+
+.mod_help ul li dl dd a {
+    color: black;
+}
+
+.mod_help ul li dl dd .color {
+    color: #696262;
+}
+
+.mod_copyright {
+    /* float: left; */
+    /* background: rgb(179, 32, 32); */
+    text-align: center;
+    padding: 15px 0 0 0;
+    line-height: 20px;
+}
+
+.mod_copyright p {
+    margin-bottom: 5px;
+}
+
+.mod_copyright p a {
+    padding: 0 10px;
+}

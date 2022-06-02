@@ -1,0 +1,373 @@
+.main {
+    margin-top: 10px;
+    width: 980px;
+    height: 470px;
+    margin-left: 220px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 470px;
+    background-color: yellow;
+}
+
+.focus img {
+    width: 721px;
+    height: 470px;
+}
+
+
+/* 新闻模块的样式 */
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 470px;
+}
+
+.news {
+    height: 176px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 16px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    font-family: 'icomoon';
+    content: '';
+}
+
+.news-bd {
+    padding: 12px 0 0 15px;
+}
+
+.news-bd ul li {
+    height: 25px;
+    /* 强制在一行上显示文本 */
+    white-space: nowrap;
+    /* 溢出的部分隐藏 */
+    overflow: hidden;
+    /* 文字溢出用省略号显示 */
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 216px;
+    border: 1px solid #e4e4e4;
+    border-top: transparent;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    /* padding: 10px 0 0 20px; */
+    width: 62.5px;
+    height: 72px;
+    border: 1px solid #e4e4e4;
+    border-top: transparent;
+    border-left: transparent;
+    text-align: center;
+}
+
+.lifeservice ul li:nth-child(4n) {
+    border-right: transparent;
+}
+
+.lifeservice ul li i {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 13px 0 5px 18px;
+}
+
+.lifeservice ul li .a {
+    background: url(../images/品优购.png) no-repeat -17px -15px;
+}
+
+.lifeservice ul li .b {
+    background: url(../images/品优购.png) no-repeat -78px -15px;
+}
+
+.lifeservice ul li .c {
+    background: url(../images/品优购.png) no-repeat -141px -15px;
+}
+
+.lifeservice ul li .d {
+    background: url(../images/品优购.png) no-repeat -204px -15px;
+}
+
+.lifeservice ul li .e {
+    background: url(../images/品优购.png) no-repeat -17px -88px;
+}
+
+.lifeservice ul li .f {
+    background: url(../images/品优购.png) no-repeat -78px -88px;
+}
+
+.lifeservice ul li .g {
+    background: url(../images/品优购.png) no-repeat -141px -88px;
+}
+
+.lifeservice ul li .h {
+    background: url(../images/品优购.png) no-repeat -204px -88px;
+}
+
+.lifeservice ul li .n {
+    background: url(../images/品优购.png) no-repeat -17px -159px;
+}
+
+.lifeservice ul li .j {
+    background: url(../images/品优购.png) no-repeat -78px -159px;
+}
+
+.lifeservice ul li .k {
+    background: url(../images/品优购.png) no-repeat -141px -159px;
+}
+
+.lifeservice ul li .l {
+    background: url(../images/品优购.png) no-repeat -204px -159px;
+}
+
+.bargain {
+    margin-top: 4px;
+}
+
+
+/* 首页推荐模块 */
+
+.recom {
+    margin-top: 14px;
+    height: 163px;
+    background: #ebebeb;
+    text-align: center;
+}
+
+.recom-hd {
+    float: left;
+    width: 208px;
+    height: 163px;
+    padding-top: 30px;
+    background: #5c5251;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.recom-hd::before {
+    font-family: 'icomoon';
+    /* display: block; */
+    width: 60px;
+    height: 60px;
+    content: '';
+    font-size: 59px;
+}
+
+.recom-bd {
+    float: left;
+    width: 992px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.recom-bd ul {
+    width: 1000px;
+}
+
+.recom-bd ul li {
+    /* padding: 5px 0; */
+    float: left;
+    width: 250px;
+    border-right: 1px solid #dddddd;
+}
+
+.recom-bd ul li img {
+    width: 248px;
+    height: 143px;
+}
+
+
+/* 猜你喜欢模块 */
+
+.like {
+    margin-top: 30px;
+    height: 260px;
+    /* background: pink; */
+}
+
+.like-hd {
+    height: 30px;
+}
+
+.like-hd p {
+    float: left;
+    font-size: 18px;
+}
+
+.like-hd a {
+    float: right;
+    /* line-height: ; */
+}
+
+.like-hd a::after {
+    font-family: 'icomoon';
+    content: '';
+    font-size: 14px;
+    padding: 0 20px 0 10px;
+}
+
+.like-bd {
+    height: 232px;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+}
+
+.like-bd ul {
+    width: 1220px;
+}
+
+.like-bd ul li {
+    position: relative;
+    float: left;
+    padding: 27px 30px 10px 35px;
+    height: 232px;
+    width: 200px;
+    /* background: #e4e4e4; */
+}
+
+.like-bd ul li::after {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    content: '';
+    width: 1px;
+    height: 65px;
+    background-color: #e4e4e4;
+    /* border: 1px solid red; */
+}
+
+.like-bd ul li img {
+    margin-bottom: 5px;
+}
+
+.like-bd ul li span {
+    display: block;
+    overflow: hidden;
+    height: 40px;
+    line-height: 20px;
+}
+
+.like-bd ul li h3 {
+    font-size: 14px;
+    color: rgb(223, 48, 51);
+}
+
+
+/* 家用电器楼 */
+
+.box_hd {
+    margin-top: 30px;
+    height: 30px;
+    border-bottom: 2px solid rgb(200, 22, 35);
+}
+
+.box_hd p {
+    float: left;
+    font-size: 18px;
+    color: rgb(200, 22, 35);
+}
+
+.box_hd ul {
+    float: right;
+}
+
+.box_hd ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.box_hd ul li:first-child a {
+    color: red;
+    border-left: transparent;
+}
+
+.box_hd ul li a {
+    border-left: 1px solid #5c5251;
+    padding: 0 15px 0 15px;
+}
+
+.table_content {
+    height: 361px;
+    background: #f9f9f9;
+    color: #666666;
+}
+
+.table_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding-left: 10px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 88px;
+    height: 34px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_329>img {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_221>img {
+    width: 221px;
+}
+
+.col_219 {
+    width: 219px;
+    /* background: #000; */
+}
+
+.col_219>img {
+    width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
